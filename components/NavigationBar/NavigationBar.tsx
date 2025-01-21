@@ -125,8 +125,8 @@ const NavigationBar = (): JSX.Element => {
           <Image
             src="/logo_full.webp"
             alt="logo"
-            width={200}
-            height={50}
+            width={150}
+            height={35}
             priority
             draggable={false}
           />
