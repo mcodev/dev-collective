@@ -153,26 +153,26 @@ const Footer = () => {
                 </ColumnLink>
               ))}
             </LinksColumn>
-            <ContactColumn>
+            {/* <ContactColumn>
               <ColumnTitle>{translate('stayConnected')}</ColumnTitle>
 
               <ContactDetails>
-                {/* <ColumnLink
+                <ColumnLink
                   href={CONTACT_INFO.google_maps}
                   target="_blank"
                   rel="noreferrer"
                 >
                   {translate(CONTACT_INFO.address)}
-                </ColumnLink> */}
+                </ColumnLink>
 
-                {/* <IconLink
+                <IconLink
                   href={`tel:${CONTACT_INFO.phone}`}
                   target="_blank"
                   rel="noreferrer"
                   color="green"
                 >
                   <FontAwesomeIcon icon={faPhone} /> {CONTACT_INFO.phone}
-                </IconLink> */}
+                </IconLink>
 
                 <IconLink
                   href={`mailto:${CONTACT_INFO.email}`}
@@ -183,7 +183,7 @@ const Footer = () => {
                   <FontAwesomeIcon icon={faPaperPlane} /> {CONTACT_INFO.email}
                 </IconLink>
               </ContactDetails>
-            </ContactColumn>
+            </ContactColumn> */}
           </MainContent>
 
           <Copyright>{`Copyright © ${new Date().getFullYear()} Dev Collective`}</Copyright>

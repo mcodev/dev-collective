@@ -62,7 +62,7 @@ export const CONTACT_INFO = {
   // phone: '+30 6984575974',
   google_maps:
     'https://www.google.com/maps/place/Athens/@37.9908977,23.6971397,13z/data=!3m1!4b1!4m6!3m5!1s0x14a1bd1f067043f1:0x2736354576668ddd!8m2!3d37.9838096!4d23.7275388!16zL20vMG4yeg?entry=ttu',
-  // address: 'companyAddress',
+  address: 'companyAddress',
   fb: 'https://www.facebook.com/profile.php?id=61555619860074&locale=el_GR',
   linkedin: 'https://www.linkedin.com/company/enospacedev/posts/?feedView=all',
 };

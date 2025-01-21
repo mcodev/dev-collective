@@ -56,7 +56,7 @@ const SideMenu = ({
                 <RouteLink href={route.path}>
                   {translate(route.label)}
                 </RouteLink>
-                {route?.subMenu && (
+                {/* {route?.subMenu && (
                   <ChevronLeftIcon
                     $isExpanded={expandedRoutes.includes(route.key)}
                     icon={faChevronLeft}
@@ -68,10 +68,10 @@ const SideMenu = ({
                       );
                     }}
                   />
-                )}
+                )} */}
               </Route>
 
-              <>
+              {/* <>
                 {route.subMenu &&
                   expandedRoutes.includes(route.key) &&
                   route.subMenu.map((subRoute) => {
@@ -83,12 +83,12 @@ const SideMenu = ({
                       </Route>
                     );
                   })}
-              </>
+              </> */}
             </RouteWrapper>
           ))}
         </RoutesWrapper>
 
-        <ContactDetails>
+        {/* <ContactDetails>
           <AddressInfo>
             <ContactInfo
               href={CONTACT_INFO.google_maps}
@@ -117,9 +117,9 @@ const SideMenu = ({
             <ContactIcon icon={faPhone} />
             <p>{CONTACT_INFO.phone}</p>
           </ContactInfo>
-        </ContactDetails>
+        </ContactDetails> */}
 
-        <SocialMedia>
+        {/* <SocialMedia>
           <SocialMediaLink href={CONTACT_INFO.fb} target="_blank">
             <SocialIcon icon={faFacebookF} />
           </SocialMediaLink>
@@ -128,10 +128,8 @@ const SideMenu = ({
             <SocialIcon icon={faLinkedinIn} />
           </SocialMediaLink>
 
-          {/* <SocialMediaLink href={'/instagram'}>
-            <SocialIcon icon={faInstagram} />
-          </SocialMediaLink> */}
-        </SocialMedia>
+        
+        </SocialMedia> */}
       </Container>
     </Wrapper>
   );

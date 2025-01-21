@@ -39,13 +39,13 @@ const CONTACT_DATA = [
   //   iconColor: 'lightGreen',
   //   href: `tel:${CONTACT_INFO.phone}`,
   // },
-  {
-    title: 'emailUs',
-    details: CONTACT_INFO.email,
-    icon: faPaperPlane,
-    iconColor: 'primary',
-    href: `mailto:${CONTACT_INFO.email}`,
-  },
+  // {
+  //   title: 'emailUs',
+  //   details: CONTACT_INFO.email,
+  //   icon: faPaperPlane,
+  //   iconColor: 'primary',
+  //   href: `mailto:${CONTACT_INFO.email}`,
+  // },
 ];
 
 const Contact = () => {

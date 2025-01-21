@@ -17,7 +17,7 @@ export default async function handler(
     try {
       await resend.emails.send({
         from: 'onboarding@resend.dev',
-        to: 'devcollective@gmail.com',
+        to: 'ntgraspi@gmail.com',
         subject: subject,
         html: `
     <div>
