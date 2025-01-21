@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
+    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
+    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+}
+
+html,
+body {
+  max-width: 100vw;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* h1 */
+
+.heroTitle {
+  font-weight: 600;
+  color: #1d233a;
+  font-size: 60px;
+  z-index: 1;
+}
+
+.heroTitle span {
+  position: relative;
+  z-index: 1;
+}
+
+.heroTitle span::after {
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: 10px;
+  width: 100%;
+  height: 9px;
+  background: #f2dac0;
+  z-index: -1;
+}
+
+@media screen and (max-width: 1024px) {
+  .heroTitle {
+    font-size: 50px;
+    line-height: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .heroTitle {
+    font-size: 40px;
+    line-height: 45px;
+  }
+}
+
+/* h2 */
+.sectionTitle {
+  font-weight: 600;
+  color: #1d233a;
+  font-size: 50px;
+  line-height: 60px;
+  z-index: 1;
+}
+
+/* add media query */
+@media screen and (max-width: 1024px) {
+  .sectionTitle {
+    font-size: 45px;
+    line-height: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sectionTitle {
+    font-size: 38px;
+    line-height: 45px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .sectionTitle {
+    font-size: 35px;
+    line-height: 40px;
+  }
+}
+
+.sectionTitle span {
+  position: relative;
+  z-index: 1;
+}
+
+.sectionTitle span::after {
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: 10px;
+  width: 100%;
+  height: 9px;
+  background: #f2dac0;
+  z-index: -1;
+}
+
+/* h4 */
+.sectionSubtitle {
+  font-weight: 700;
+  color: #7432ff;
+  font-size: 20px !important;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 1024px) {
+  .sectionSubtitle {
+    font-size: 18px;
+  }
+}
+
+::selection {
+  background-color: #7432ff;
+  color: white;
+}
